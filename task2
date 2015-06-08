@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+	 <head>
+	 	<title> Lesson_2 Task_2 </title>
+	 	<meta charset="utf-8">
+	 	<style type="text/css">
+    	table { border-collapse: collapse; width: 400px;}
+    	td, th { border: 5px solid #000; }
+    	th { border-top: 0; }
+    	body {background-color:grey;}
+    	td {border-bottom: 0;}
+    	td, th {border-left: 0;}
+    	.one_border {border-right: 0}
+		</style>
+	 </head>
+	 	<body>
+	 		 <!-- в таблице применил стили для того чтобы убрать по краям стенку -->
+	 		<table widht="400px" height="450px">
+	 			<caption> Композиция с красным, синим и желтым </caption>
+	 			<tr>
+	 				<th bgcolor="#ffffff" colspan="2"> </th>
+	 				<th bgcolor="#ffffff" colspan="2"> </th>
+	 				<th bgcolor="#fffa69" colspan="2" class="one_border"> </th>
+	 			</tr>
+	 			<tr>
+	 				<td bgcolor="#ffffff"> </td>
+	 				<td bgcolor="#ff5b2d" colspan="3" rowspan="2"> </td>
+	 				<td bgcolor="#fffa69" colspan="2" class="one_border"> </td>
+	 			</tr>	
+	 			<tr>
+	 				<td bgcolor="#ffffff" rowspan="2"> </td>
+	 				<td bgcolor="#ffffff"> </td>
+	 				<td bgcolor="#ffffff" class="one_border"> </td>
+	 			</tr>
+	 			<tr>
+	 				<td bgcolor="#000000" colspan="2" rowspan="2"></td>
+	 				<td bgcolor="#ffffff" > </td>
+	 				<td bgcolor="#ffffff" colspan="2" class="one_border"> </td>
+	 			</tr>
+	 			<tr>
+	 				<td bgcolor="#fffa69" rowspan="3" > </td>
+	 				<td bgcolor="#ffffff" >  </td>
+	 				<td bgcolor="#074481" colspan="2" rowspan="2" class="one_border"> </td>
+	 			</tr>
+	 			<tr>
+	 				<td bgcolor="#ffffff" colspan="2" rowspan="2" > </td>
+	 				<td bgcolor="#000000" > </td>
+	 			</tr>
+	 			<tr>
+	 				<td bgcolor="#ffffff" colspan="3" class="one_border"> </td>
+	 			</tr>
+	 		</table>
+	 	</body>
+	</html>
