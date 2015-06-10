@@ -1,54 +1,64 @@
 <!DOCTYPE html>
-	<html>
-	 <head>
-	 	<title> Lesson_2 Task_3 </title>
-	 	<meta charset="utf-8">
-	 </head>
-	 <body>
-	 	<form action="/">
-	 		<p>Name <br/>
-	 		<input type="text" autofocus> </p>
-	 		<p>Email<br/>
-	 		<input type="email"></p>
-	 		<p>Sex <br/>
-	 		<input type="radio">Male <input type="radio">Female</p>
-	 		Current status<br/>
-	 		<input type="checkbox">Student<br/>
-	 		<input type="checkbox">Employed<br/>
-	 		<input type="checkbox">Unemployed<br/>
-	 		<p>Month and Year of birth<br/>
-	 		<select name="Month" size="1">
-	 		<option>January</option>
-	 		<option>February</option>
-	 		<option>March</option>
-	 		<option>April</option>
-	 		</select>
-	 		<select name="Year" size="1">
-	 		<option>1982</option>
-	 		<option>1983</option>
-	 		<option selected="selected">1984</option>
-	 		<option>1985</option>
-	 		</select></p><br/>
-	 		<p>Skills and Tecknologies<br/>
-	 		<select size="10">
-	 			<optgroup label="Teck skills">
-	 			<option>HTML</option>
-	 			<option>CSS</option>
-	 			<option>JavaScript</option>
-	 			<option>git</option>
-	 			</optgroup>
-	 			<optgroup label="Soft skills">
-	 			<option>Time management</option>
-	 			<option>Proactivity</option>
-	 			<option>Teamwork</option>
-	 			<option>Leadership</option>
-	 		</optgroup></p>
-	 		</select><br/>
-	 		<p>Photo <br/>
-	 			<input type="file"></p>
-	 		<p>Comments <br/>
-	 			<textarea rows="4"></textarea></p>
-	 		<p><input type="submit" value="Save"></p>
-	 	</form>
-	 </body>
-	 </html>
+<html>
+   <head>
+      <title> Lesson_2 Task_3 </title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <form action="/">
+         <p>Name <br/>
+            <input type="text" autofocus> 
+         </p>
+         <p>Email<br/>
+            <input name="e-mail" type="email">
+         </p>
+         <p>Sex <br/>
+            <input name="sex_1" type="radio">Male <input name="sex_2" type="radio">Female
+         </p>
+         Current status<br/>
+         <input name="status_1" type="checkbox">Student<br/>
+         <input name="status_2" type="checkbox">Employed<br/>
+         <input name="status_3" type="checkbox">Unemployed<br/>
+         <p>
+            Month and Year of birth<br/>
+            <select name="Month" size="1">
+               <option>January</option>
+               <option>February</option>
+               <option>March</option>
+               <option>April</option>
+            </select>
+            <select name="Year" size="1">
+               <option>1982</option>
+               <option>1983</option>
+               <option selected="selected">1984</option>
+               <option>1985</option>
+            </select>
+         </p>
+         <br/>
+         <p>
+            Skills and Tecknologies<br/>
+            <select name="Skills_Tec" size="10">
+               <optgroup label="Teck skills">
+                  <option>HTML</option>
+                  <option>CSS</option>
+                  <option>JavaScript</option>
+                  <option>git</option>
+               </optgroup>
+               <optgroup label="Soft skills">
+                  <option>Time management</option>
+                  <option>Proactivity</option>
+                  <option>Teamwork</option>
+                  <option>Leadership</option>
+               </optgroup>
+            </select>
+         </p>
+         <p>Photo <br/>
+            <input name="photo" type="file">
+         </p>
+         <p>Comments <br/>
+            <textarea name="comments"rows="4"></textarea>
+         </p>
+         <p><input name="save" type="submit" value="Save"></p>
+      </form>
+   </body>
+</html>
